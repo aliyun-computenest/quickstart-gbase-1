@@ -49,9 +49,6 @@ TuGraph服务需要对ECS、VPC等资源进行访问和创建操作，若您使�
 
 Web图形化操作界面使用GBase云数仓系统：部署完成以后，查看部署实例的“概览”页面，在“DashboardAddress”标签栏获取Web登录的访问链接，然后打开链接，在节目上选择“中文”并输入租户名、数据库访问用户名和密码后，登录Web控制台使用GBase云数仓系统，包括创建DB、表和视图，以及插入表数据、查询表数据和导入数据到表等数据仓库操作。
 
-### 使用TuGraph
-请访问TuGraph官网了解如何使用TuGraph：[TuGraph可视化使用文档](https://www.tugraph.org/doc?version=V3.3.0&id=10000000001031969)
-
 ## 问题排查
 应用系统通过接口驱动使用GBase云数仓系统：部署完成以后，查看部署实例的“概览”页面，在“CoordinatorAddress”标签栏获取用于通过公网访问GBase云数仓的IP地址列表，应用系统通过使用GBase提供的JDBC、ODBC或C API接口在公网上访问和使用GBase云数仓系统。用户可以联系南大通用的技术服务人员获取上述接口驱动。
 
